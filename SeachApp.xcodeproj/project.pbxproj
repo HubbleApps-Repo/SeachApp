@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99D3CE6225C0C5A0006EF56C /* SeachAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE6125C0C5A0006EF56C /* SeachAppApp.swift */; };
 		99D3CE6425C0C5A0006EF56C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE6325C0C5A0006EF56C /* ContentView.swift */; };
 		99D3CE6625C0C5AA006EF56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D3CE6525C0C5AA006EF56C /* Assets.xcassets */; };
 		99D3CE6925C0C5AA006EF56C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D3CE6825C0C5AA006EF56C /* Preview Assets.xcassets */; };
-		99D3CE6B25C0C5AA006EF56C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE6A25C0C5AA006EF56C /* Persistence.swift */; };
 		99D3CE6E25C0C5AA006EF56C /* SeachApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE6C25C0C5AA006EF56C /* SeachApp.xcdatamodeld */; };
 		99D3CE7925C0C5AA006EF56C /* SeachAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE7825C0C5AA006EF56C /* SeachAppTests.swift */; };
 		99D3CE8425C0C5AA006EF56C /* SeachAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE8325C0C5AA006EF56C /* SeachAppUITests.swift */; };
+		99D3CE9525C0C5FD006EF56C /* NavigationSearchBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE9425C0C5FD006EF56C /* NavigationSearchBarApp.swift */; };
+		99D3CE9D25C0C63E006EF56C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE9A25C0C63E006EF56C /* CardView.swift */; };
+		99D3CE9E25C0C63E006EF56C /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE9B25C0C63E006EF56C /* CustomNavigationView.swift */; };
+		99D3CE9F25C0C63E006EF56C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CE9C25C0C63E006EF56C /* Home.swift */; };
+		99D3CEA525C0C67B006EF56C /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3CEA425C0C67B006EF56C /* AppItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,9 @@
 
 /* Begin PBXFileReference section */
 		99D3CE5E25C0C5A0006EF56C /* SeachApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeachApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D3CE6125C0C5A0006EF56C /* SeachAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachAppApp.swift; sourceTree = "<group>"; };
 		99D3CE6325C0C5A0006EF56C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99D3CE6525C0C5AA006EF56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D3CE6825C0C5AA006EF56C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		99D3CE6A25C0C5AA006EF56C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		99D3CE6D25C0C5AA006EF56C /* SeachApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeachApp.xcdatamodel; sourceTree = "<group>"; };
 		99D3CE6F25C0C5AA006EF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99D3CE7425C0C5AA006EF56C /* SeachAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeachAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,11 @@
 		99D3CE7F25C0C5AA006EF56C /* SeachAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeachAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D3CE8325C0C5AA006EF56C /* SeachAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachAppUITests.swift; sourceTree = "<group>"; };
 		99D3CE8525C0C5AA006EF56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D3CE9425C0C5FD006EF56C /* NavigationSearchBarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationSearchBarApp.swift; sourceTree = "<group>"; };
+		99D3CE9A25C0C63E006EF56C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		99D3CE9B25C0C63E006EF56C /* CustomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		99D3CE9C25C0C63E006EF56C /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		99D3CEA425C0C67B006EF56C /* AppItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,11 @@
 		99D3CE6025C0C5A0006EF56C /* SeachApp */ = {
 			isa = PBXGroup;
 			children = (
-				99D3CE6125C0C5A0006EF56C /* SeachAppApp.swift */,
+				99D3CE9925C0C63E006EF56C /* View */,
+				99D3CEA325C0C67B006EF56C /* Model */,
+				99D3CE9425C0C5FD006EF56C /* NavigationSearchBarApp.swift */,
 				99D3CE6325C0C5A0006EF56C /* ContentView.swift */,
 				99D3CE6525C0C5AA006EF56C /* Assets.xcassets */,
-				99D3CE6A25C0C5AA006EF56C /* Persistence.swift */,
 				99D3CE6F25C0C5AA006EF56C /* Info.plist */,
 				99D3CE6C25C0C5AA006EF56C /* SeachApp.xcdatamodeld */,
 				99D3CE6725C0C5AA006EF56C /* Preview Content */,
@@ -134,6 +141,24 @@
 				99D3CE8525C0C5AA006EF56C /* Info.plist */,
 			);
 			path = SeachAppUITests;
+			sourceTree = "<group>";
+		};
+		99D3CE9925C0C63E006EF56C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99D3CE9A25C0C63E006EF56C /* CardView.swift */,
+				99D3CE9B25C0C63E006EF56C /* CustomNavigationView.swift */,
+				99D3CE9C25C0C63E006EF56C /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99D3CEA325C0C67B006EF56C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99D3CEA425C0C67B006EF56C /* AppItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D3CE6B25C0C5AA006EF56C /* Persistence.swift in Sources */,
+				99D3CE9525C0C5FD006EF56C /* NavigationSearchBarApp.swift in Sources */,
 				99D3CE6425C0C5A0006EF56C /* ContentView.swift in Sources */,
+				99D3CEA525C0C67B006EF56C /* AppItem.swift in Sources */,
+				99D3CE9E25C0C63E006EF56C /* CustomNavigationView.swift in Sources */,
 				99D3CE6E25C0C5AA006EF56C /* SeachApp.xcdatamodeld in Sources */,
-				99D3CE6225C0C5A0006EF56C /* SeachAppApp.swift in Sources */,
+				99D3CE9D25C0C63E006EF56C /* CardView.swift in Sources */,
+				99D3CE9F25C0C63E006EF56C /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
